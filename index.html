@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey Beautiful</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="main-content">
+
+    <header class="hero">
+        <h1>Hey Beautiful</h1>
+        <p>Tumhare liye kuch special hai...</p>
+        <span class="down-arrow">↓</span>
+    </header>
+
+    <!-- Gallery -->
+    <section class="gallery">
+
+        <div class="polaroid tilt-left">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80">
+            <p>Teri muskaan meri jaan hai...</p>
+        </div>
+
+        <div class="polaroid tilt-right">
+            <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=600&q=80">
+            <p>Mera favourite view</p>
+        </div>
+
+        <div class="polaroid tilt-left">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=600&q=80">
+            <p>Ye smile hamesha rakhna</p>
+        </div>
+
+    </section>
+
+    <!-- Proposal -->
+    <section class="proposal-container">
+        <div class="emoji">🙋🏻‍♂️</div>
+        <h2>Will you go on a date with me?</h2>
+        <p>Kya tum mere saath date pe chalogi?</p>
+
+        <div class="buttons">
+            <button id="btn-yes">Haan ji !</button>
+            <button id="btn-no">Nahi</button>
+        </div>
+    </section>
+
+</div>
+
+<!-- Success Screen -->
+<div id="success-screen" class="hidden">
+    <h1>Yayyyy!</h1>
+    <div class="hearts">❤️❤️❤️❤️❤️</div>
+
+    <img class="success-gif"
+        src="https://media.giphy.com/media/VzQ9PUdifClRm/giphy.gif">
+
+    <p class="subtitle">See you soon! Can't wait!</p>
+    <button id="btn-close">Close</button>
+</div>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
